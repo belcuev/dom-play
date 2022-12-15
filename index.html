@@ -1,20 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
  <head>
-     <title>Project Name</title>
+     <title>DOM Play</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/nav.css">
   <link rel="stylesheet" href="css/forms.css">
+  <style>
+    .hamlet{
+       /* background-color: yellow; */
+    }
+
+    #play span{
+        /*background-color: blue;*/
+    }
+
+    h2 {
+        font-family: cursive;
+        font-size: xx-large;
+    }
+
+    img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+    }
+
+    h3 {
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bolder;
+    }
+
+    h4 {
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    p {
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bolder;
+    }
+
+
+
+  </style>
  </head>
  <body>
      <header>
-     <h1 class="page-header">Site Name</h1>
+     <h1 class="page-header">DOM Play</h1>
         <nav class="topnav" id="myTopnav">
             <a href="index.html" class="active">Home</a>
-            <a href="#">Link</a>
+            <a href="https://nicholassparks.com/work/a-walk-to-remember/" target="_blank" rel="noopener noreferrer">Book Summary</a>
             <a href="#">Link</a>
             <a href="#">Link</a>
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
@@ -22,9 +62,41 @@
      </header>
      
    <main class="wrapper"> 
-       <h2 class="subheader">Project Name</h2>
-      
-       <p>Clever content goes here</p>
+       <h2 class="subheader">A Walk to Remember</h2>
+
+       <img src="images/Movie.jpg" alt="Movie" />
+
+       <h3>Script</h3>
+
+       <h4>Chapter 25 - Love is...</h4>
+
+    <div id="play">
+       <p><span data-actor="Landon">Landon: Hey. How are you feeling?</span></p>
+       <p><span data-actor="Jamie">Jamie: I’m ok, how are you?</span></p>
+       <p><span data-actor="Landon">Landon: Pretty good.</span></p>
+       <p><span data-actor="Jamie">Jamie: I have something for you.</span></p>
+       <p><span data-actor="Landon">Landon: You do?</span></p>
+       <p><span data-actor="Jamie">Jamie: Uh hmm.. Don’t worry it’s not a bible.</span></p>
+       <p><span data-actor="Jamie">Jamie: It was my mother’s. It’s got quotes from all her favorite books, and quotes by famous people. Her thoughts. Come on.</span></p>
+       <p><span data-actor="Landon">Landon: Okay, let’s check it out. Okay, (reading) “What is a friend? A friend is a soul dwelling in two bodies.” Aristotle.</span></p>
+       <p><span data-actor="Jamie">Jamie: Uh uh, here. (she gestures to something on another page)</span></p>
+       <p><span data-actor="Landon">Landon: Okay. “Find out who you are, and do it on purpose.” It’s Dolly Parton.</span></p>
+       <p><span data-actor="Jamie">Jamie (smiling): I always thought she was smart.</span></p>
+       <p><span data-actor="Landon">Landon (reading): “Love is always patient and kind. It is never jealous. Love is never boastful or conceited. It is never rude or selfish. It does not take offense and is not resentful.”</span></p>
+       <p><span data-actor="Jamie">Jamie: You know what I figured out today?</span></p>
+       <p><span data-actor="Landon">Landon: What?</span></p>
+       <p><span data-actor="Jamie">Jamie (at peace): Maybe God . . . has bigger plans for me than I had for myself. Like, this journey never ends. Like you were sent to me because I’m sick. To help me through this . . . (she smiles) you’re my angel.</span></p>
+       <h4>Chapter 28 - Her Miracle</h4>
+       <h4>Landon Voice Over Only</h4>
+       <p><span data-actor="Landon">Landon (v.o.): It’s been four years . .  but the visions of Jamie walking toward me . .  will stay with me forever. Jamie saved my life. She taught me everything . . . about life, hope, and the long journey ahead. I’ll always miss her. But our love is like the wind . . . I can’t see it, but I can feel it.</span></p>
+       <h4>Fin</h4>
+    </div>
+
+
+
+
+
+
 
    <footer>
       <p><small>&copy; 2021-<span id="this-year"></span> by 
