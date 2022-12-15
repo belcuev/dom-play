@@ -42,19 +42,7 @@ for(const mySpan of spans){
     
 }   
    
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
+  
    //https://tinyurl.com/dynamic-html-checker
     document.getElementById("html-checker").setAttribute("href","https://validator.w3.org/nu/?doc=" + location.href);
       
